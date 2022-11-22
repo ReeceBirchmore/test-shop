@@ -1,0 +1,23 @@
+.quantity {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+}
+
+.square {
+  background-color: rgb(57, 199, 165);
+  color: white !important;
+}
+
+.squareEmpty {
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(57, 199, 165);
+  color: rgb(57, 199, 165);
+  font-size: 0.5em;
+  padding: 8px;
+}

@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .App-logo {
@@ -35,4 +38,36 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+p {
+  color: rgb(164, 164, 164);
+}
+
+.smallIcon {
+  width: 18px !important;
+  font-weight: bolder !important;
+  height: 18px !important;
+}
+
+.button {
+  background-color: rgb(57, 199, 165) !important;
+  color: white !important;
+  font-weight: 600 !important;
+  padding: 16px !important;
+  box-sizing: border-box !important;
+  border-radius: 12px !important;
+  flex-grow: 1 !important;
+}
+
+.black {
+  color: black !important;
+  font-weight: bold !important;
+  font-size: 1em !important;
+}
+
+.total {
+  color: rgb(57, 199, 165) !important;
+  font-weight: bolder;
+  font-size: 1.2em;
 }

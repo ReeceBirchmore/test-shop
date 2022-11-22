@@ -1,0 +1,37 @@
+.cart {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.cartItems {
+  max-height: 500px;
+  overflow: scroll;
+}
+
+.subtotals {
+}
+
+.subtotals .subTotalItem {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.totals {
+  margin-bottom: 20px;
+}
+
+.totals .subTotalItem {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  border-top: 1px dashed rgb(164, 164, 164);
+}
